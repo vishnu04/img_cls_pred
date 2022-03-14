@@ -109,6 +109,8 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+img_cls_env/
+data/
 
 # Spyder project settings
 .spyderproject
