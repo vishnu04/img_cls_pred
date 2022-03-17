@@ -60,3 +60,4 @@ In this step, I built a FastAPI endpoint that was hosted on a local webserver by
 
 Reference: 
 - https://www.tensorflow.org
+- https://exerror.com/runtimeerror-asyncio-run-cannot-be-called-from-a-running-event-loop/
