@@ -52,7 +52,7 @@ The model accuracy and loss after 50 epochs is below.\
 Prediction of Random Tomato Leaves.\
 ![Alt text](/models/predicted_12_tomato_leaves.png?raw=true "Prediction of Random Tomato Leaves")
 Prediction using FastAPI.\
-![Alt text](/models/output.png?raw=true "Prediction using FastAPI")
+![Alt text](/models/output.PNG?raw=true "Prediction using FastAPI")
 
 
 ## Productionization
