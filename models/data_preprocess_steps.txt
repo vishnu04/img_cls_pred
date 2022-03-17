@@ -1,0 +1,24 @@
+## import tensorflow,
+## tensorflow.keras import models, layers
+## matplotlib.pyplot
+
+1. read dataset from directory at batch_size = 32
+2. get class names
+3. get image_batch, label_batch from dataset and display image
+	hint: 
+		as.type("unint8")
+		plt.figure(figsize=(10,10))
+		ax = plt.subplot(3,4,i+1)
+4. Split data into train_ds, validation_ds and test_ds, with shuffle=True and shuffle_size = 10000
+
+5. Use cache(), shuffle(1000) and prefetch(buffer_size=tf.data.AUTOTUNE) for train_ds, validation_ds and test_ds 
+
+6. resize_rescale = tf.keras.Sequential([
+	layers.experimental.preprocessing.Resizing(IMAGE_SIZE,IMAGE_SIZE),
+	layers.experimental.preprocessing.Rescaling(1.0/255)
+])
+
+7. data_augmentation = tf.keras.Sequential([
+	layers.experimental.preprocessing.RandomFlip("horizontal_and_vertical"),
+	layers.experimental.preprocessing.RandomRotation(0.2)
+])
