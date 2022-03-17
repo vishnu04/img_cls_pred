@@ -47,8 +47,8 @@ https://www.youtube.com/playlist?list=PLeo1K3hjS3ut49PskOfLnE6WUoOp_2lsD
 	- /api/main.py: Contains code for API
 
 ## Model performance
-The model accuracy and loss after 50 epochs is below.
-![Alt text](/models/Training_validation_accuracy_loss.png?raw=true "Training_Validation Accuracy and Loss")
+The model accuracy and loss after 50 epochs is below.\
+![Alt text](/models/Training_validation_accuracy_loss.png?raw=true "Training_Validation Accuracy and Loss") \
 ![Alt text](/models/predicted_12_tomato_leaves.png?raw=true "Prediction of Random Tomato Leaves")
 
 ## Productionization
