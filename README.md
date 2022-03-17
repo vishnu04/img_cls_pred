@@ -49,7 +49,11 @@ https://www.youtube.com/playlist?list=PLeo1K3hjS3ut49PskOfLnE6WUoOp_2lsD
 ## Model performance
 The model accuracy and loss after 50 epochs is below.\
 ![Alt text](/models/Training_validation_accuracy_loss.png?raw=true "Training_Validation Accuracy and Loss") \
+Prediction of Random Tomato Leaves.\
 ![Alt text](/models/predicted_12_tomato_leaves.png?raw=true "Prediction of Random Tomato Leaves")
+Prediction using FastAPI.\
+![Alt text](/models/output.png?raw=true "Prediction using FastAPI")
+
 
 ## Productionization
 In this step, I built a FastAPI endpoint that was hosted on a local webserver by following along with the youtube tutorial in the reference section above. The API endpoint takes in a request with image as input and returns predicted class and confidence values.
